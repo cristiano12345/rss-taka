@@ -1,0 +1,83 @@
+[data-theme="dark"] {
+  background-color: $background-primary;
+
+  body {
+    background-color: $background-primary;
+  }
+
+  p,
+  span {
+    color: $text-primary;
+  }
+
+  strong {
+    color: $text-secondary;
+  }
+
+  a {
+    color: $text-secondary;
+  }
+
+  a[href] {
+    color: #3676b2;
+  }
+
+  .footer {
+    background-color: $background-secondary;
+  }
+
+  .input {
+    background-color: $background-primary;
+    color: $is-link;
+
+    &::placeholder {
+      color: $text-primary;
+    }
+  }
+
+  .menu-list {
+    .column {
+      color: $text-secondary;
+
+      &:hover {
+        background-color: $background-hover;
+        color: $text-secondary;
+      }
+    }
+
+    a:hover {
+      background-color: $background-secondary;
+      color: $text-secondary;
+    }
+  }
+
+  .button {
+    background-color: $background-primary;
+    color: $text-primary;
+  }
+
+  .is-active {
+    background-color: $is-link;
+    color: $text-secondary;
+  }
+
+  .is-primary {
+    background: $is-primary;
+    color: $text-primary;
+  }
+
+  .is-link {
+    background: $is-link;
+    color: $text-primary;
+  }
+
+  .is-danger {
+    background-color: $is-danger;
+    color: $text-primary;
+  }
+
+  .is-light {
+    background-color: $background-secondary;
+    color: is-link;
+  }
+}

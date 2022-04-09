@@ -1,0 +1,17 @@
+@import "variables";
+@import "themes/dark/index.scss";
+@import "~bulma/css/bulma.css";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-justify-center {
+  justify-content: center;
+}
